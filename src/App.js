@@ -19,7 +19,7 @@ function App() {
       <div className="magnitude">
         <b>Magnitude</b>
         {magnitudeConfig.map((el) => (
-          <div className="magnitudeRow">
+          <div className="magnitudeRow" key={el.color}>
             <div
               className="magnitudeColor"
               style={{ backgroundColor: el.color }}
