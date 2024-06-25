@@ -15,6 +15,32 @@
   padding: 0 20px;
 }
 
+.magnitude {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin: 0 20px;
+  padding: 5px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.magnitudeRow {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.magnitudeColor {
+  margin: 8px 15px;
+  width: 15px;
+  height: 15px;
+}
+
 main,
 .mapContainer {
   width: 100%;
