@@ -68,7 +68,7 @@ const ThreeDModuleMap = () => {
             const sphere = tb
               .sphere({
                 color,
-                radius: magnitude * 1000,
+                radius: magnitude * 500,
                 material: "MeshStandardMaterial",
               })
               .setCoords([location[0], location[1], depth]);
